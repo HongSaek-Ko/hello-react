@@ -1,0 +1,19 @@
+# 빌드 결과
+dist/
+build/
+
+# node.js 모듈
+node_moudules/
+
+# 로그 파일
+npm-dehug.log
+
+# project root를 제외한 다른 파일들...
+public/
+
+# 기타
+.vscode/
+.idea/
+*.config.js
+
+package-lock.json
