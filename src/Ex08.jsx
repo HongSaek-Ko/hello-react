@@ -15,6 +15,7 @@ const Ex08 = () => {
     setState((prev) => prev + 2) // 직전 변수값을 가져오기 때문에,
     setState((prev) => prev + 3) // 누적해서 값 대입(추가)가 가능
     setState((prev) => prev + 4) // 즉, 함수 내 직전 상태값 유지 (+)
+    
   }
   return (
     <div>
